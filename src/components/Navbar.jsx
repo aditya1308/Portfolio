@@ -23,11 +23,11 @@ const Navbar = () => {
       <div className="mx-auto text-center flex w-5/6 justify-between">
         
         <div className="hidden sm:flex space-x-4 items-center text-sm text-2xl font-extrabold">
-          <Link to='/'>Home</Link>
+          <Link to='/Portfolio'>Home</Link>
           <Link to='/about'>About</Link>
         </div>
         <div className="text-4xl sm:text-2xl font-bold font-sans">
-          <a href="/">Aditya Prasad</a>
+          <a href="/Portfolio">Aditya Prasad</a>
         </div>
         <div className="hidden sm:flex space-x-4 items-center text-sm text-2xl font-extrabold">
           <Link to='/projects'>Projects</Link>
@@ -45,7 +45,7 @@ const Navbar = () => {
             ✕
           </button>
           <ul className="font-medium text-2xl space-y-4">
-            <li><Link to='/' onClick={closeMobileMenu}>Home</Link></li>
+            <li><Link to='/Portfolio' onClick={closeMobileMenu}>Home</Link></li>
             <li><Link to='/about' onClick={closeMobileMenu}>About</Link></li>
             <li><Link to='/projects' onClick={closeMobileMenu}>Projects</Link></li>
             <li><Link to='/experience' onClick={closeMobileMenu}>Experince</Link></li>
