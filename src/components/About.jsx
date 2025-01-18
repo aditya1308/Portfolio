@@ -38,7 +38,7 @@ const About = () => {
             published on <a href='https://www.geeksforgeeks.org/user/adityaprasad1308/contributions/' style={{ color: 'yellow' }}>GeeksForGeeks</a> website.</p>
 
             <ButtonLink
-              url='https://drive.google.com/file/d/1Rmaszc0eFWqRUHDlZIXmK-CFgb7J6-50/view?usp=sharing'
+              url='https://drive.google.com/file/d/1XEn2UjPjXALPkrspkSSjaER5g1T8Ac7O/view?usp=sharing'
               text='Resume →'
               padding={`p-3`}
             />
